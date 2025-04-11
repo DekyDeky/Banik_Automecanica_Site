@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap'); /* Não achei a fonte original para download ou de fácil acesso */
+@import url(reset.css);
+@import url(cabecalho.css);
+@import url(rodape.css);
+@import url(../introducao/introducao.css);
+@import url(../diferenciais/diferencias.css);
+@import url(../servicos/servicos.css);
+@import url(../clientes/clientes.css);
+
+:root {
+
+    --font: "League Spartan", sans-serif;
+
+    --font_title-weight: 800;
+    --font_h1_size: 3rem;
+    --font_h2_size: 2.5rem;
+    --font_p_size: 1.5rem;
+
+    --cabecalho-height: 120px;
+    
+    --cabecalho_font-size: 24px;
+    --cabecalho_font-size--phone: 2rem;
+    --cabecalho_font-color: black;
+
+    --btnVoltar_font-color: white;
+    
+    --introducao_font-color: white;
+    --introducao_font-title--size: 3.5rem;
+    --introducao_font-color--sirineu: #c4c0c0;
+    --introducao_font-size--sirineu: 2rem;
+    --introducao_btn-bgcolor: rgba(255, 32, 32);
+    --introducao_btn-bgcolor-hover: rgb(196, 25, 25);
+
+    --introducao_font-title--size__phone: 3rem; 
+    --introducao_font--size--sirineu__phone: 2rem;
+
+    --diferenciais_bg-color: #c4c0c0;
+    --diferenciais_font-color: #21446f;
+
+    --clientes_bg-color: #191919;
+    --clientes_item-bg--color: #2b5587;
+
+    --rodape_bg-color: #c4c0c0;
+}
+
+html {
+    font-family: var(--font);
+    scroll-padding-top: var(--cabecalho-height);
+}
+
+a {
+    text-decoration: none;
+}
+
+.conteudo {
+    background-image: url('../../imgs/bg.jpg');
+    background-attachment: fixed;
+}
+
+/* Formatação geral de textos */
+
+.conteudo_titulo {
+    font-weight: var(--font_title-weight);
+    font-size: var(--font_h1_size);
+
+    text-align: center;
+    padding-top: 25px;
+}
+
+.conteudo_tituloMenor {
+    font-size: var(--font_h2_size);
+    font-weight: var(--font_title-weight);
+    text-transform: uppercase;
+
+    margin: 10px 0 5px 0;
+
+    min-height: 80px;
+
+    display: flex;
+    align-items: center;
+}
+
+.conteudo_texto {
+    font-size: var(--font_p_size);
+}
+
+/* Formatação da disposição de itens */
+.conteudo_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+
+    margin: 25px;
+
+    width: 500px;
+}

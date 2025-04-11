@@ -1,0 +1,124 @@
+@media screen and (max-width: 1024px) {
+    .conteudo-introducao {
+        text-align: center;
+        background-position: bottom center;
+        background-size: 55vh;
+    }
+
+    .conteudo-introducao-textos {
+        margin-top: var(--cabecalho-height);
+        height: 100%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .conteudo-introducao-texto {
+        margin-top: auto;
+        margin-bottom: 20vh;
+        font-size: var(--introducao_font-title--size__phone);
+        width: 75%;
+    }
+
+    .botaoWhats {
+        width: 70%;
+        height: 80px;
+
+        margin-top: auto;
+        margin-bottom: 50px;
+
+        font-size: var(--introducao_font--size--sirineu__phone);
+    }
+
+    .conteudo-introducao-sirineu {
+        display: none;
+    }   
+
+
+}
+
+@media screen and (min-width: 1025px) {
+    .conteudo-introducao {
+        background-size: 850px;
+        background-position: bottom right 80px;
+    }
+
+    .conteudo-introducao-textos {
+        margin-top: auto;
+        margin-left: 80px;
+    }
+
+    .conteudo-introducao-texto {
+        font-size: var(--introducao_font-title--size);
+        width: 50%;
+        margin-bottom: 25px;
+    }
+
+    .botaoWhats {
+        height: 100px;
+        width: 500px;
+
+        font-size: var(--introducao_font-title--size);
+    }
+
+    .conteudo-introducao-sirineu {
+        margin-top: auto;
+        margin-left: auto;
+
+        padding-bottom: 25px;
+        padding-right: 100px;
+    }
+}
+
+.conteudo-introducao {
+    color: var(--introducao_font-color);
+
+    height: 100vh;
+
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+
+    background-image: url('../../imgs/introducao/Sirineu.png'); 
+}
+
+.conteudo-introducao-texto {
+    font-weight: var( --font_title-weight);
+
+}
+
+.botaoWhats {
+    color: var(--introducao_font-color);
+    background-color: var(--introducao_btn-bgcolor);
+
+    text-align: center;
+
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: var( --font_title-weight);
+}
+
+.botaoWhats:hover {
+    background-color: var(--introducao_btn-bgcolor-hover);
+}
+
+
+.conteudo-introducao-sirineu {
+
+    font-size: var(--introducao_font-size--sirineu);
+    font-style: italic;
+}
+
+.conteudo-introducao-nome {
+    font-weight: var( --font_title-weight);
+}
+
+.conteudo-introducao-ocupacao {
+    font-weight: 200;
+}

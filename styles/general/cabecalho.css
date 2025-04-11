@@ -1,0 +1,16 @@
+@media screen and (max-width: 400px) {
+    .cabecalho-logo {
+        width: 200px!important;
+    }
+}
+
+.cabecalho {
+    border-bottom: 5px solid black;
+
+    background-color: white;
+}
+
+.cabecalho-nav-itens {
+    font-size: var(--cabecalho_font-size);
+    font-weight: var(--font_title-weight);
+}

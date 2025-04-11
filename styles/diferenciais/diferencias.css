@@ -1,0 +1,7 @@
+.conteudo-diferenciais {
+    background-color: var(--diferenciais_bg-color);
+}
+
+.conteudo-diferenciais-item {
+    color: var(--diferenciais_font-color);
+}

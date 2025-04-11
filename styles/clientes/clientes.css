@@ -1,0 +1,28 @@
+.conteudo-clientes {
+    background-color: var(--clientes_bg-color);
+}
+
+.conteudo-clientes-item {
+    background-color: var(--clientes_item-bg--color);
+    border-radius: 15px;
+
+    padding: 15px;
+}
+
+.counteudo-clientes-titulo {
+    color: var(--diferenciais_font-color);
+}
+
+.conteudo-clientes-foto {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.estrelas {
+    margin: 20px 0;
+}
+
+.conteudo-clientes-texto {
+    color: white;
+    text-align: center;
+}
